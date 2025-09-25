@@ -20,20 +20,24 @@ export function Hero() {
 					una comunidad de apoyo.
 				</p>
 				<div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-					<Button
-						size="lg"
-						className="bg-[#F283B5] hover:bg-[#F283B5]/90 text-white px-8 py-4 text-lg"
-					>
-						<Download className="mr-2 h-5 w-5" />
-						Descargar MaterniCo Gratis
-					</Button>
-					<Button
-						size="lg"
-						variant="outline"
-						className="border-[#10B9A7] text-[#10B9A7] hover:bg-[#10B9A7] hover:text-white px-8 py-4 text-lg bg-transparent"
-					>
-						Ver Características
-					</Button>
+					<a href="/download/app/maternico-app.apk">
+						<Button
+							size="lg"
+							className="bg-[#F283B5] hover:bg-[#F283B5]/90 text-white px-8 py-4 text-lg"
+						>
+							<Download className="mr-2 h-5 w-5" />
+							Descargar MaterniCo Gratis
+						</Button>
+					</a>
+					<a href="#screenshots">
+						<Button
+							size="lg"
+							variant="outline"
+							className="border-[#10B9A7] text-[#10B9A7] hover:bg-[#10B9A7] hover:text-white px-8 py-4 text-lg bg-transparent"
+						>
+							Ver Características
+						</Button>
+					</a>
 				</div>
 			</div>
 			<HeroImage />

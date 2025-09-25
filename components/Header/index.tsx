@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { Button } from "../ui/button";
 
 export function Header() {
 	return (
@@ -17,9 +17,11 @@ export function Header() {
 					<NavLink href="#caracteristicas">Características</NavLink>
 					<NavLink href="#testimonios">Testimonios</NavLink>
 					<NavLink href="#descarga">Descargar</NavLink>
-					<Button className="bg-[#10B9A7] hover:bg-[#3BC1C1] text-white">
-						Comenzar mi Viaje Maternal
-					</Button>
+					<a href="#descarga">
+						<Button className="bg-[#10B9A7] hover:bg-[#3BC1C1] text-white">
+							Comenzar mi Viaje Maternal
+						</Button>
+					</a>
 				</div>
 			</nav>
 		</header>

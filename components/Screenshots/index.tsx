@@ -26,7 +26,7 @@ export function Screenshots() {
   ];
 
   return (
-    <section className="py-16 md:py-20 bg-white">
+    <section id="screenshots" className="py-16 md:py-20 bg-white">
       <div className="container mx-auto px-4">
         <SectionHeader
           title="Diseñada para ti"
