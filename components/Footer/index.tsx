@@ -53,12 +53,10 @@ function LegalLinks({
 			fileName: "AVISO_PRIVACIDAD_MATERNICO.pdf",
 			displayName: "Política de Privacidad",
 		},
-		{ fileName: "AVISO_PRIVACIDAD_MATERNICO.pdf", displayName: "Términos de Uso" },
 		{
-			fileName: "AVISO_PRIVACIDAD_MATERNICO.pdf",
+			fileName: "maternico_eliminacion_cuenta.pdf",
 			displayName: "Eliminación de Cuenta",
 		},
-		{ fileName: "AVISO_PRIVACIDAD_MATERNICO.pdf", displayName: "Cookies" },
 	];
 
 	return (
