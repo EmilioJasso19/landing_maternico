@@ -29,13 +29,13 @@ export function Hero() {
 							Descargar MaterniCo Gratis
 						</Button>
 					</a>
-					<a href="#screenshots">
+					<a target="_blank" href="https://uvmx-my.sharepoint.com/:f:/g/personal/zs22017009_estudiantes_uv_mx/EkZJ0vaTnjhHg4E7fbclY9ABVOMtjYbmdFBUpGFACPp_6g?e=ORaTOR">
 						<Button
 							size="lg"
 							variant="outline"
 							className="border-[#10B9A7] text-[#10B9A7] hover:bg-[#10B9A7] hover:text-white px-8 py-4 text-lg bg-transparent"
 						>
-							Ver Características
+							Ver Documentación
 						</Button>
 					</a>
 				</div>
